@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { Switch , Route, Redirect, BrowserRouter as Router } from 'react-router-dom'
+import { Switch , Route, Redirect, HashRouter as Router } from 'react-router-dom'
 import Header from './components/Header';
 import CounterScreen from './pages/CounterScreen';
 import TableScreen from './pages/TableScreen';
