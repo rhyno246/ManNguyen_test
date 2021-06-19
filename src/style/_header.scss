@@ -1,0 +1,28 @@
+.header{
+    background: #3498db;
+    padding: 20px 5px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    z-index: 9999999999;
+    .nav{
+        li{
+            margin-right: 40px;
+            &:last-child{
+                margin-right: 0;
+            }
+            a{
+                color: #fff;
+                font-size: 18px;
+                text-transform: uppercase;
+                text-decoration: none;
+            }
+            .active{
+                color: yellow;
+            }
+        }
+    }
+}
